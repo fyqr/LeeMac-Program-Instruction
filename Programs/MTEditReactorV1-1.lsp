@@ -1,0 +1,52 @@
+(   (lambda nil (vl-load-com)
+        (defun c:mteditreactoron nil
+            (mtedit-reactor-remove)
+            (vlr-set-notification
+                (vlr-command-reactor "mtedit-reactor"
+                   '((:vlr-commandwillstart . mtedit-reactor-callback))
+                )
+                'active-document-only
+            )
+            (vlr-set-notification
+                (vlr-editor-reactor "mtedit-reactor"
+                   '((:vlr-beginclose . mtedit-reactor-clean))
+                )
+                'active-document-only
+            )
+            (princ "\nMTEdit Reactor enabled.")
+            (princ)
+        )
+        (defun c:mteditreactoroff nil
+            (mtedit-reactor-remove)
+            (mtedit-reactor-clean nil nil)
+            (princ "\nMTEdit Reactor disabled.")
+            (princ)
+        )
+        (defun mtedit-reactor-callback ( a b )
+            (if (wcmatch (strcase (car b) t) "mtedit,mleadercontentedit")
+                (if (or mtedit-reactor-wsh (setq mtedit-reactor-wsh (vlax-create-object "wscript.shell")))
+                    (vl-catch-all-apply 'vlax-invoke (list mtedit-reactor-wsh 'sendkeys "^{HOME}(^+{END})"))
+                )
+            )
+            (princ)
+        )
+        (defun mtedit-reactor-clean ( a b )
+            (if (= 'vla-object (type mtedit-reactor-wsh))
+                (vl-catch-all-apply 'vlax-release-object (list mtedit-reactor-wsh))
+            )
+            (setq mtedit-reactor-wsh nil)
+            (princ)
+        )
+        (defun mtedit-reactor-remove nil
+            (foreach grp (vlr-reactors :vlr-command-reactor :vlr-editor-reactor)
+                (foreach obj (cdr grp)
+                    (if (= "mtedit-reactor" (vlr-data obj))
+                        (vlr-remove obj)
+                    )
+                )
+            )
+        )
+        (c:mteditreactoron)
+        (princ)
+    )
+)
