@@ -9,5 +9,5 @@
 - 程序加载用集成程序：[CommandAssemblies](/CommandAssemblies.lsp)
 
 - [文字对齐(动态对齐)](InstructionDoc/文字对齐(动态对齐).md)
-- 
+- [对象从块删除或加入](InstructionDoc/对象从块中删除或加入.md)
 
