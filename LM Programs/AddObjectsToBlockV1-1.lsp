@@ -3,22 +3,32 @@
 ;;  Adds all objects in the provided SelectionSet to the      ;;
 ;;  definition of the specified block.                        ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  doc   - Document Object in which block resides.           ;;
 ;;  block - Entity name of reference insert                   ;;
 ;;  ss    - SelectionSet of objects to add to definition      ;;
 ;;------------------------------------------------------------;;
-
+(defun c:adb( / ss entnam)
+	(setq ss (entsel "µãÑ¡"))
+	(setq entnam (car (entsel "¿éÃû")))
+	(LM:AddObjectstoBlock entnam ss)(¶Ïµã)
+	(setq acadObj (vlax-get-acad-object))  
+	(setq doc (vla-get-ActiveDocument acadObj)) 
+	
+)
+(defun c:deb()
+	(LM:RemovefromBlock)
+)
 (defun LM:AddObjectstoBlock ( doc block ss / lst mat )
   
   (setq lst (LM:ss->vla ss)
-        mat (LM:Ref->Def block)
-        mat (vlax-tmatrix (append (mapcar 'append (car mat) (mapcar 'list (cadr mat))) '((0. 0. 0. 1.))))
+		mat (LM:Ref->Def block)
+		mat (vlax-tmatrix (append (mapcar 'append (car mat) (mapcar 'list (cadr mat))) '((0. 0. 0. 1.))))
   )
   (foreach obj lst (vla-transformby obj mat))
-
+	
   (vla-CopyObjects doc (LM:SafearrayVariant vlax-vbobject lst)
     (vla-item (vla-get-Blocks doc) (cdr (assoc 2 (entget block))))
   )
@@ -30,7 +40,7 @@
 ;;                                                            ;;
 ;;  Removes an Entity from a Block Definition                 ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  ent - Entity name of Object to Delete from Block [ENAME]  ;;
@@ -47,7 +57,7 @@
 ;;  Creates a populated Safearray Variant of a specified      ;;
 ;;  data type                                                 ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  datatype - variant type enum (eg vlax-vbDouble)           ;;
@@ -55,7 +65,7 @@
 ;;------------------------------------------------------------;;
 ;;  Returns:  VLA Variant Object of type specified            ;;
 ;;------------------------------------------------------------;;
-                         
+
 (defun LM:SafearrayVariant ( datatype data )
   (vlax-make-variant
     (vlax-safearray-fill
@@ -68,7 +78,7 @@
 ;;                                                            ;;
 ;;  Converts a SelectionSet to a list of VLA Objects          ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  ss - Valid SelectionSet (Pickset)                         ;;
@@ -90,7 +100,7 @@
 ;;  for transforming Block Reference Geometry to the Block    ;;
 ;;  Definiton.                                                ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  e - Block Reference Entity                                ;;
@@ -99,9 +109,9 @@
 ;;------------------------------------------------------------;;
 
 (defun LM:Ref->Def ( e / _dxf a l n )
-
+	
   (defun _dxf ( x l ) (cdr (assoc x l)))
-
+	
   (setq l (entget e) a (- (_dxf 50 l)) n (_dxf 210 l))
   (
     (lambda ( m )
@@ -126,11 +136,11 @@
           (list    0.        0.     1.)
         )
         (mapcar '(lambda ( e ) (trans e n 0 t))
-         '(
-            (1. 0. 0.)
-            (0. 1. 0.)
-            (0. 0. 1.)
-          )
+					'(
+						 (1. 0. 0.)
+						 (0. 1. 0.)
+						 (0. 0. 1.)
+					 )
         )
       )
     )
@@ -157,7 +167,7 @@
 ;;  Provides continuous selection prompts until either a      ;;
 ;;  predicate function is validated or a keyword is supplied. ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  msg  - prompt string                                      ;;
@@ -173,15 +183,15 @@
     (progn (setvar 'ERRNO 0) (if keyw (apply 'initget keyw)) (setq sel (func msg))
       (cond
         ( (= 7 (getvar 'ERRNO))
-
+					
           (princ "\nMissed, Try again.")
         )
         ( (eq 'STR (type sel))
-
+					
           nil
         )
         ( (vl-consp sel)
-
+					
           (if (and pred (not (pred sel)))
             (princ "\nInvalid Object Selected.")
           )
@@ -197,18 +207,18 @@
 ;-------------------------------------------------------------;
 
 (defun c:Add2Block ( / *error* _StartUndo _EndUndo acdoc ss e )
-
+	
   (defun *error* ( msg )
     (if acdoc (_EndUndo acdoc))
     (or (wcmatch (strcase msg) "*BREAK,*CANCEL*,*EXIT*")
-        (princ (strcat "\n** Error: " msg " **")))
+			(princ (strcat "\n** Error: " msg " **")))
     (princ)
   )
-
+	
   (defun _StartUndo ( doc ) (_EndUndo doc)
     (vla-StartUndoMark doc)
   )
-
+	
   (defun _EndUndo ( doc )
     (if (= 8 (logand 8 (getvar 'UNDOCTL)))
       (vla-EndUndoMark doc)
@@ -216,12 +226,12 @@
   )
   
   (setq acdoc (vla-get-ActiveDocument (vlax-get-acad-object)))
-
+	
   (if
     (and (setq ss (ssget "_:L"))
       (setq e
         (LM:SelectIf "\nSelect Block to Add Objects to: "
-         '(lambda ( x ) (eq "INSERT" (cdr (assoc 0 (entget (car x)))))) entsel nil
+					'(lambda ( x ) (eq "INSERT" (cdr (assoc 0 (entget (car x)))))) entsel nil
         )
       )
     )
@@ -235,18 +245,18 @@
 ;-------------------------------------------------------------;
 
 (defun c:Remove ( / *error* _StartUndo _EndUndo acdoc e )
-
+	
   (defun *error* ( msg )
     (if acdoc (_EndUndo acdoc))
     (or (wcmatch (strcase msg) "*BREAK,*CANCEL*,*EXIT*")
-        (princ (strcat "\n** Error: " msg " **")))
+			(princ (strcat "\n** Error: " msg " **")))
     (princ)
   )
-
+	
   (defun _StartUndo ( doc ) (_EndUndo doc)
     (vla-StartUndoMark doc)
   )
-
+	
   (defun _EndUndo ( doc )
     (if (= 8 (logand 8 (getvar 'UNDOCTL)))
       (vla-EndUndoMark doc)
@@ -254,7 +264,7 @@
   )
   
   (setq acdoc (vla-get-ActiveDocument (vlax-get-acad-object)))
-
+	
   (while (setq e (car (nentsel "\nSelect Object to Remove: ")))
     (_StartUndo acdoc) (LM:RemovefromBlock acdoc e) (_EndUndo acdoc)
   )

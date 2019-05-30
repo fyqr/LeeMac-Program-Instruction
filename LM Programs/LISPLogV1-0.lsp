@@ -11,7 +11,7 @@
 ;;  type at the command-line 'LispLogON' or 'LispLogOFF'      ;;
 ;;  respectively.                                             ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.0    -    07-11-2011                            ;;
 ;;------------------------------------------------------------;;
@@ -23,7 +23,7 @@
 ;;  The folder will be created if it doesn't exist.           ;;
 ;;------------------------------------------------------------;;
 
-(setq *lisp-log-folder* "C:\\LISP-Logs")
+(setq *lisp-log-folder* "D:\\LISP-Logs")
 
 ;;------------------------------------------------------------;;
 
