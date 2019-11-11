@@ -38,7 +38,7 @@
 ;;  thumbnails will be lost until the next manual save.                 ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2013  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2013  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    10-08-2013                                      ;;
 ;;                                                                      ;;

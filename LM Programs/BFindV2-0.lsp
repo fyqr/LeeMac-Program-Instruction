@@ -67,7 +67,7 @@
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com                          ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com                          ;;
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
@@ -467,7 +467,7 @@
             "//                                                                               //"
             "//  BFind.dcl to be used in conjunction with BFind.lsp.                          //"
             "//-------------------------------------------------------------------------------//"
-            "//  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com                          //"
+            "//  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com                          //"
             "//-------------------------------------------------------------------------------//"
             ""
             "//-------------------------------------------------------------------------------//"
@@ -2074,7 +2074,7 @@
 
 (vl-load-com)
 (princ)
-(princ "\n:: BFind.lsp | Version 2.0 | © Lee Mac 2011 www.lee-mac.com ::")
+(princ "\n:: BFind.lsp | Version 2.0 | ?Lee Mac 2011 www.lee-mac.com ::")
 (princ "\n:: Type \"BFind\" to Invoke ::")
 (princ)
 

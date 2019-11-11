@@ -22,7 +22,7 @@
 ;;  through which the data output, table & file headings, displayed     ;;
 ;;  columns, sorting field & sort order may each be altered.            ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2014  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2014  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2010-06-05                                      ;;
 ;;                                                                      ;;
@@ -567,7 +567,7 @@
                     "//                                                                      //"
                     "//  Dialog definition file for use in conjunction with Count.lsp        //"
                     "//----------------------------------------------------------------------//"
-                    "//  Author:  Lee Mac, Copyright © 2014  -  www.lee-mac.com              //"
+                    "//  Author:  Lee Mac, Copyright ?2014  -  www.lee-mac.com              //"
                     "//----------------------------------------------------------------------//"
                     ""
                     "b15 : edit_box"

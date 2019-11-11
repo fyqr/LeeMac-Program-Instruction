@@ -4,7 +4,7 @@
 ;;  a series of load statements for all program files         ;;
 ;;  (lsp/vlx/fas) found in a selected directory.              ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.1    -    25-05-2011                            ;;
 ;;------------------------------------------------------------;;
@@ -44,7 +44,7 @@
 ;;                                                            ;;
 ;;  Displays a dialog prompting the user to select a folder   ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  msg  - message to display at top of dialog                ;;
@@ -82,7 +82,7 @@
 ;;  Retrieves all files or those of a specified filetype that ;;
 ;;  reside in a directory (and, optionally, subdirectories)   ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  Dir      - Directory to search                            ;;
@@ -128,7 +128,7 @@
 ;;                                                            ;;
 ;;  Returns a save path in an AutoCAD Support Directory       ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments: -None-                                         ;;
 ;;------------------------------------------------------------;;

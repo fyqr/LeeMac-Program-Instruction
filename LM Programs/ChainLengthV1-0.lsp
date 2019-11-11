@@ -26,7 +26,7 @@
 ;;  The user will be notified if the two given points do not lie on     ;;
 ;;  the same chain of objects in the selection.                         ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2015  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2015  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2015-11-01                                      ;;
 ;;                                                                      ;;

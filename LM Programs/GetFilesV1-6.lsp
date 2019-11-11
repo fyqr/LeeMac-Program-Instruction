@@ -2,7 +2,7 @@
 ;;                                                                      ;;
 ;;  An analog of the 'getfiled' function for multiple file selection.   ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2012  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2012  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Arguments:                                                          ;;
 ;;  msg - [str/nil] Dialog box label; 'Select Files' if nil or "".      ;;

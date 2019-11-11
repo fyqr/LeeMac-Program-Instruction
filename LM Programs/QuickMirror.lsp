@@ -4,7 +4,7 @@
 ;;  or a single object without the need to select two points  ;;
 ;;  defining a mirror axis.                                   ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  single - if T, mirrors selected object using derivative   ;;
@@ -42,7 +42,7 @@
 ;;------------------------------------------------------------;;
 
 (defun QuickMirror ( single delete / *error* _StartUndo _EndUndo doc ss sel p1 p2 i o ) (vl-load-com)
-  ;; © Lee Mac 2011
+  ;; ?Lee Mac 2011
 
   (defun *error* ( msg )
     (if doc (_EndUndo doc))

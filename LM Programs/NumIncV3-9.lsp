@@ -103,7 +103,7 @@
 ;;  [   <   ]  -  Rotate Object Counter Clockwise                                                ;;
 ;;  [   >   ]  -  Rotate Object Clockwise                                                        ;;
 ;;  [   O   ]  -  Specify Object Rotation                                                        ;;
-;;  [  Tab  ]  -  Rotate Object by 90º                                                           ;;
+;;  [  Tab  ]  -  Rotate Object by 90?                                                          ;;
 ;;  [   M   ]  -  Mirror Object Rotation                                                         ;;
 ;;  [   C   ]  -  Align Object to Curve                                                          ;;
 ;;  [   R   ]  -  Replace Existing Text/Attribute String                                         ;;
@@ -166,7 +166,7 @@
 ;;  [ Enter ]  -  (or Space/Right-Click) Exit Program [Cancel]                                   ;;
 ;;  [ Click ]  -  Place Object                                                                   ;;
 ;;  [   O   ]  -  Specify Object Rotation                                                        ;;
-;;  [  RO   ]  -  Rotate Object by 90º                                                           ;;
+;;  [  RO   ]  -  Rotate Object by 90?                                                          ;;
 ;;  [   M   ]  -  Mirror Object Rotation                                                         ;;
 ;;  [   C   ]  -  Align Object to Curve                                                          ;;
 ;;  [   R   ]  -  Replace Existing Text/Attribute String                                         ;;
@@ -181,7 +181,7 @@
 ;;                                                                                               ;;
 ;;-----------------------------------------------------------------------------------------------;;
 ;;                                                                                               ;;
-;;  Author: Lee Mac, Copyright © 2009 - www.lee-mac.com                                          ;;
+;;  Author: Lee Mac, Copyright ?2009 - www.lee-mac.com                                          ;;
 ;;                                                                                               ;;
 ;;-----------------------------------------------------------------------------------------------;;
 ;;                                                                                               ;;
@@ -3520,7 +3520,7 @@
                     "//  NumInc.dcl dialog definition file to be used in           //"
                     "//  conjunction with NumInc.lsp                               //"
                     "//------------------------------------------------------------//"
-                    "//  Author: Lee Mac, Copyright © 2014 - www.lee-mac.com       //"
+                    "//  Author: Lee Mac, Copyright ?2014 - www.lee-mac.com       //"
                     "//------------------------------------------------------------//"
                     ""
                     "//  --=={ Sub-Assembly Definitions }==--"

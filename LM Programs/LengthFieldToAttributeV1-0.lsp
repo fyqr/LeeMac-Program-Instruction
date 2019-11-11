@@ -15,7 +15,7 @@
 ;;  the selected objects, formatted using the Field formatting code     ;;
 ;;  specified at the top of the program.                                ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2017  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2017  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2017-03-18                                      ;;
 ;;                                                                      ;;

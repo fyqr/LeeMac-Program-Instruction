@@ -6,7 +6,7 @@
 ;;  the text content displaying the UCS Y-coordinate of the point.      ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2013  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2013  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 
 (defun c:em ( / *error* ang hgt len ocs pt1 pt2 pt3 pt4 str )

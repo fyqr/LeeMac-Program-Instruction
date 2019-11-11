@@ -39,7 +39,7 @@
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
-;;  Author: Lee Mac, Copyright © October 2009 - www.lee-mac.com                  ;;
+;;  Author: Lee Mac, Copyright ?October 2009 - www.lee-mac.com                  ;;
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
@@ -621,7 +621,7 @@
   (princ))
 
 (vl-load-com)
-(princ "\n:: TxAlign.lsp | Version 1.6 | © Lee Mac 2009 www.lee-mac.com ::")
+(princ "\n:: TxAlign.lsp | Version 1.6 | ?Lee Mac 2009 www.lee-mac.com ::")
 (princ "\n:: Type \"TxAlign\" to Invoke ::")
 (princ)
 

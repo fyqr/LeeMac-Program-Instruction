@@ -27,7 +27,7 @@
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
-;;  Author: Lee Mac, Copyright © October 2009 - www.lee-mac.com                  ;;
+;;  Author: Lee Mac, Copyright ?October 2009 - www.lee-mac.com                  ;;
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
@@ -831,7 +831,7 @@
             "//                                                            //"
             "//  DynOff.dcl for use in conjunction with DynOff.lsp         //"
             "//------------------------------------------------------------//"
-            "//  Author: Lee Mac, Copyright © 2009 - www.lee-mac.com       //"
+            "//  Author: Lee Mac, Copyright ?2009 - www.lee-mac.com       //"
             "//------------------------------------------------------------//"
             ""
             "// Sub-Assembly Definitions"
@@ -1041,7 +1041,7 @@ t))
 
 
 (vl-load-com)
-(princ "\n:: DynOff.lsp | Version 2.1 | © Lee Mac 2009 www.lee-mac.com ::")
+(princ "\n:: DynOff.lsp | Version 2.1 | ?Lee Mac 2009 www.lee-mac.com ::")
 (princ "\n:: Type \"DynOff\" to Invoke ::")
 (princ)
 

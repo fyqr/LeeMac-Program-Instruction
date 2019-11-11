@@ -20,7 +20,7 @@
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
-;;  Author: Lee Mac, Copyright © September 2009 - www.lee-mac.com                ;;
+;;  Author: Lee Mac, Copyright ?September 2009 - www.lee-mac.com                ;;
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
@@ -392,6 +392,6 @@
 )
 
 (vl-load-com)
-(princ "\n:: Text2MText.lsp | Version 2.0 | © Lee Mac 2009 www.lee-mac.com ::")
+(princ "\n:: Text2MText.lsp | Version 2.0 | ?Lee Mac 2009 www.lee-mac.com ::")
 (princ "\n:: Type \"T2M\" to Invoke ::")
 (princ)

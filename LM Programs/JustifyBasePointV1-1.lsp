@@ -43,6 +43,10 @@
 ;;                                                                      ;;
 ;;  First release.                                                      ;;
 ;;----------------------------------------------------------------------;;
+;;  Version 1.1    -    2019-09-08                                      ;;
+;;                                                                      ;;
+;;  Program updated to account for blocks nested within nested xrefs.   ;;
+;;----------------------------------------------------------------------;;
 
 (defun c:jbp
 
@@ -79,7 +83,7 @@
         (foreach lay lck
             (vla-put-lock lay :vlax-true)
         )
-        (jbp:endundo (jbp:acdoc))
+        (LM:endundo (LM:acdoc))
         (if (and msg (not (wcmatch (strcase msg t) "*break,*cancel*,*exit*")))
             (princ (strcat "\nError: " msg))
         )
@@ -108,7 +112,8 @@
         )
         (setq jus (setenv ky2 "BL"))
     )
-    (jbp:startundo (jbp:acdoc))
+    
+    (LM:startundo (LM:acdoc))
     (cond
         (   (not (setq sel (jbp:ssget "\nSelect blocks: " '(((0 . "INSERT")))))))
         (   (not
@@ -209,7 +214,7 @@
                     )
                 )
             )
-            (vlax-for lay (vla-get-layers (jbp:acdoc))
+            (vlax-for lay (vla-get-layers (LM:acdoc))
                 (if (= :vlax-true (vla-get-lock lay))
                     (progn
                         (vla-put-lock lay :vlax-false)
@@ -223,7 +228,7 @@
                 )
                 (if (not (assoc bln bnl))
                     (progn
-                        (if (setq def (vla-item (jbp:acblk) bln)
+                        (if (setq def (vla-item (LM:acblk) bln)
                                   bpt (fun (LM:blockdefinitionboundingbox def))
                             )
                             (vlax-for obj def (vlax-invoke obj 'move bpt '(0.0 0.0 0.0)))
@@ -234,7 +239,7 @@
                 )
             )
             (if (= "rb1" ret)
-                (vlax-for blk (jbp:acblk)
+                (vlax-for blk (LM:acblk)
                     (if (= :vlax-false (vla-get-isxref blk))
                         (vlax-for obj blk
                             (if
@@ -258,7 +263,7 @@
                     (setvar 'cmdecho cmd)
                 )
             )
-            (vla-regen (jbp:acdoc) acallviewports)
+            (vla-regen (LM:acdoc) acallviewports)
         )
     )
     (*error* nil)
@@ -440,12 +445,7 @@
                 (refgeom (vlax-vla-object->ename ref))
             )
         )
-        (LM:blockdefinitionboundingbox
-            (vla-item
-                (vla-get-blocks (vla-get-document ref))
-                (vla-get-name ref)
-            )
-        )
+        (LM:blockdefinitionboundingbox (vla-item (LM:acblk) (vla-get-name ref)))
     )
 )
 
@@ -565,14 +565,14 @@
 
 ;;----------------------------------------------------------------------;;
 
-(defun jbp:startundo ( doc )
-    (jbp:endundo doc)
+(defun LM:startundo ( doc )
+    (LM:endundo doc)
     (vla-startundomark doc)
 )
 
 ;;----------------------------------------------------------------------;;
 
-(defun jbp:endundo ( doc )
+(defun LM:endundo ( doc )
     (while (= 8 (logand 8 (getvar 'undoctl)))
         (vla-endundomark doc)
     )
@@ -580,16 +580,16 @@
 
 ;;----------------------------------------------------------------------;;
 
-(defun jbp:acdoc nil
-    (eval (list 'defun 'jbp:acdoc 'nil (vla-get-activedocument (vlax-get-acad-object))))
-    (jbp:acdoc)
+(defun LM:acdoc nil
+    (eval (list 'defun 'LM:acdoc 'nil (vla-get-activedocument (vlax-get-acad-object))))
+    (LM:acdoc)
 )
 
 ;;----------------------------------------------------------------------;;
 
-(defun jbp:acblk nil
-    (eval (list 'defun 'jbp:acblk 'nil (vla-get-blocks (jbp:acdoc))))
-    (jbp:acblk)
+(defun LM:acblk nil
+    (eval (list 'defun 'LM:acblk 'nil (vla-get-blocks (LM:acdoc))))
+    (LM:acblk)
 )
 
 ;;----------------------------------------------------------------------;;
@@ -597,7 +597,7 @@
 (vl-load-com)
 (princ
     (strcat
-        "\n:: JustifyBasePoint.lsp | Version 1.0 | \\U+00A9 Lee Mac "
+        "\n:: JustifyBasePoint.lsp | Version 1.1 | \\U+00A9 Lee Mac "
         (menucmd "m=$(edtime,0,yyyy)")
         " www.lee-mac.com ::"
         "\n:: Type \"jbp\" to Invoke ::"

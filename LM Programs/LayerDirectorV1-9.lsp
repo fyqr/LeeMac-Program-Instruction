@@ -32,7 +32,7 @@
 ;;  subsequently disabled or enabled manually using the commands        ;;
 ;;  'LDOFF' & 'LDON' respectively.                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2011  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2011  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2011-04-16                                      ;;
 ;;                                                                      ;;

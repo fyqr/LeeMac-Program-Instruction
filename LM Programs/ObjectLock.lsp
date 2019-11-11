@@ -36,7 +36,7 @@
 ;;  deal with regard to saving data in Drawing Dictionaries.  ;;
 ;;  Merci!                                                    ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.0    -    08-05-2011                            ;;
 ;;------------------------------------------------------------;;

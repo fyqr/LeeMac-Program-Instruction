@@ -4,7 +4,7 @@
 ;;  specified distance. With additional controls for erasure  ;;
 ;;  of source object and offset layer.                        ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version: 1-1 20100912                                     ;;
 ;;------------------------------------------------------------;;
@@ -218,7 +218,7 @@
 )   
 
 (vl-load-com) (princ)
-(princ "\n:: DoubleOffset.lsp | Version 1.1 | © Lee Mac 2011 www.lee-mac.com ::")
+(princ "\n:: DoubleOffset.lsp | Version 1.1 | ?Lee Mac 2011 www.lee-mac.com ::")
 (princ "\n:: Type \"DoubleOffset\" or \"DOff\" to invoke ::")
 (princ)
 

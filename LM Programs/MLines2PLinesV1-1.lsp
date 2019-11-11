@@ -3,7 +3,7 @@
 ;;  Converts a selection of Multiline (MLINE) objects into    ;;
 ;;  LWPolylines.                                              ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2012 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2012 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.1    -    10-06-2012                            ;;
 ;;------------------------------------------------------------;;

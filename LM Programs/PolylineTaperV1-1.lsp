@@ -11,7 +11,7 @@
 ;;  The program is compatible with 2D polylines containing linear       ;;
 ;;  segments and/or arc segments, constructed in any UCS.               ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2016  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2016  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2016-01-01                                      ;;
 ;;                                                                      ;;

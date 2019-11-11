@@ -54,7 +54,7 @@
 ;;  with objects constructed in any UCS plane.                          ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2013  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2013  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    02-06-2013                                      ;;
 ;;                                                                      ;;

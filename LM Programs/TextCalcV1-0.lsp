@@ -8,7 +8,7 @@
 ;;  the result of the current calculation in the form of an   ;;
 ;;  MText object in the drawing.                              ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.0    -    07-04-2011                            ;;
 ;;  First Release.                                            ;;
@@ -115,7 +115,7 @@
     )
     ( (setq num (_Select "\nSelect Text Containing Numerical Data: "))
 
-      (setq str (_str num) ops '(("+" . " + ") ("-" . " - ") ("*" . " × ") ("/" . " ÷ ")))
+      (setq str (_str num) ops '(("+" . " + ") ("-" . " - ") ("*" . " ?") ("/" . " ?")))
 
       (while (not (member dcf '(1 0)))
         (cond
@@ -216,7 +216,7 @@
 ;;                                                            ;;
 ;;  Parses a list of numerical values from a supplied string. ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  s  - String to process                                    ;;
@@ -260,7 +260,7 @@
 ;;  Displays a List Box allowing the user to make a selection ;;
 ;;  from the supplied data.                                   ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  title    - List Box Dialog title                          ;;
@@ -272,7 +272,7 @@
 ;;------------------------------------------------------------;;
 
 (defun LM:ListBox ( title data multiple / file tmp dch return )
-  ;; © Lee Mac 2011
+  ;; ?Lee Mac 2011
   
   (cond
     (
@@ -328,7 +328,7 @@
 ;;  object may be created using the                           ;;
 ;;  Programmatic Identifier: "VBScript.RegExp".               ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  RegExp       - RegularExpressions (RegExp) Object         ;;
@@ -421,7 +421,7 @@
                 (lambda ( x ) (setq string (_Replace (car x) (cdr x) string)))
               )
              '(
-                ("Ð"       . "\\\\\\\\")
+                ("?       . "\\\\\\\\")
                 (" "       . "\\\\P|\\n|\\t")
                 ("$1"      . "\\\\(\\\\[ACcFfHLlOopQTW])|\\\\[ACcFfHLlOopQTW][^\\\\;]*;|\\\\[ACcFfHLlOopQTW]")
                 ("$1$2/$3" . "([^\\\\])\\\\S([^;]*)[/#\\^]([^;]*);")
@@ -429,10 +429,10 @@
                 ("$1"      . "[\\\\]({)|{")
               )
             )
-            (setq string (_Replace "" "%%[OoUu]" (_Replace "Ð" "\\\\" string)))
+            (setq string (_Replace "" "%%[OoUu]" (_Replace "? "\\\\" string)))
           )
-          (set *mtextstring (_Replace "\\\\" "Ð" (_Replace "\\$1$2$3" "(\\\\[ACcFfHLlOoPpQSTW])|({)|(})" string)))
-          (set *dtextstring (_Replace "\\"   "Ð" string))
+          (set *mtextstring (_Replace "\\\\" "? (_Replace "\\$1$2$3" "(\\\\[ACcFfHLlOoPpQSTW])|({)|(})" string)))
+          (set *dtextstring (_Replace "\\"   "? string))
         )
       )
     )
@@ -444,7 +444,7 @@
 ;;------------------------------------------------------------;;
 
 (princ)
-(princ "\n:: TextCalc.lsp | Version 1.0 | © Lee Mac 2011 www.lee-mac.com ::")
+(princ "\n:: TextCalc.lsp | Version 1.0 | ?Lee Mac 2011 www.lee-mac.com ::")
 (princ "\n:: Type \"TextCalc\" or \"TC\" to Invoke ::")
 (princ)
 

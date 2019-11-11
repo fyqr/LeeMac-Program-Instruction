@@ -17,7 +17,7 @@
 ;;  non-uniformly-scaled block references.                              ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2013  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2013  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    04-04-2012                                      ;;
 ;;                                                                      ;;

@@ -3,7 +3,7 @@
 ;;  Produces a report detailing the layer structure in every  ;;
 ;;  drawing in a selected directory (and subdirectories).     ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version:  1.4  28-04-2011                                 ;;
 ;;------------------------------------------------------------;;
@@ -89,7 +89,7 @@
    )
   
   (vl-load-com)
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
 
   (setq VersionNumber "1-4")
   
@@ -255,7 +255,7 @@
              "//  Layer Extract Dialog Definition File to be used in        //"
              "//  conjunction with Layer Extract LISP program.              //"
              "//------------------------------------------------------------//"
-             "//  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       //"
+             "//  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       //"
              "//------------------------------------------------------------//"
              ""
              "boxcol : boxed_column {  width =  65.0; fixed_width  = true; alignment = centered; }"
@@ -1070,7 +1070,7 @@
 ;;                                                            ;;
 ;;  Displays a dialog prompting the user to select a folder   ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  msg  - message to display at top of dialog                ;;
@@ -1105,7 +1105,7 @@
 ;;  Retrieves all files or those of a specified filetype that ;;
 ;;  reside in a directory (and, optionally, subdirectories)   ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  Dir      - Directory to search                            ;;
@@ -1153,7 +1153,7 @@
 ;;                                                            ;;
 ;;  Retrieves a version specific ObjectDBX Document object    ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments: - None -                                       ;;
 ;;------------------------------------------------------------;;
@@ -1174,7 +1174,7 @@
 ;;  Releases a VLA Object from memory via plentiful error     ;;
 ;;  trapping                                                  ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  obj - VLA Object to be released from memory               ;;
@@ -1199,7 +1199,7 @@
 ;;  Constructs a string from a list of strings separating     ;;
 ;;  each element by a specified delimiter                     ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  lst - a list of strings to process                        ;;
@@ -1218,7 +1218,7 @@
 ;;------------------------------------------------------------;;
 
 (princ)
-(princ "\n:: Layer Extractor | Version 1.4 | © Lee Mac 2011 www.lee-mac.com ::")
+(princ "\n:: Layer Extractor | Version 1.4 | ?Lee Mac 2011 www.lee-mac.com ::")
 (princ "\n:: Type \"LayerExtract\" or \"LX\" to Invoke ::")
 (princ)
 

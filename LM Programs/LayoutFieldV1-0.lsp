@@ -16,7 +16,7 @@
 ;;  expressions which reference the CTAB system variable will yield     ;;
 ;;  the same value for every layout when processed by this command.     ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2016  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2016  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2016-12-29                                      ;;
 ;;                                                                      ;;

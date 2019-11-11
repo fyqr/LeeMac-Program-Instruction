@@ -167,7 +167,7 @@
 ;;  Creates a field using the method encoded by the 'mode' argument,    ;;
 ;;  using the supplied field property and format strings.               ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2011  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2011  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Arguments:                                                          ;;
 ;;  prop    -  Object Property to link to field (e.g. "Area")           ;;

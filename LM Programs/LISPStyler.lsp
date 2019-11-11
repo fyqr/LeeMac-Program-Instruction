@@ -7,7 +7,7 @@
 ;;  Output file is saved to the same directory as supplied    ;;
 ;;  input file.                                               ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  file   - filename of lsp file to convert                  ;;
@@ -526,7 +526,7 @@
 ;; LISP 2 BBCode (for use in forums)
 
 (defun c:lsp2bbc ( / file )
-  ;; © Lee Mac 2011
+  ;; ?Lee Mac 2011
 
   (cond
     (
@@ -568,7 +568,7 @@
 ;; LISP 2 HTML - for use on websites.
 
 (defun c:lsp2html ( / file )
-  ;; © Lee Mac 2011
+  ;; ?Lee Mac 2011
 
   (cond
     (

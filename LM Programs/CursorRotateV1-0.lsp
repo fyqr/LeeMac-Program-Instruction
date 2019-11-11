@@ -5,7 +5,7 @@
 ;;  object residing at a selected point, to a fixed angle, or a fixed   ;;
 ;;  percentage representing a slope or incline grade.                   ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2015  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2015  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2015-09-25                                      ;;
 ;;                                                                      ;;

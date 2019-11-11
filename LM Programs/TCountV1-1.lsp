@@ -3,7 +3,7 @@
 ;;  Counts the number of occurrences of each string in a      ;;
 ;;  selection and produces a report in an ACAD Table object   ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.0  -  07.11.2010                                ;;
 ;;  First Release.                                            ;;
@@ -192,7 +192,7 @@
 ;;  Creates a VLA Table Object at the specified point,        ;;
 ;;  populated with title and data                             ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  space - VLA Block Object                                  ;;

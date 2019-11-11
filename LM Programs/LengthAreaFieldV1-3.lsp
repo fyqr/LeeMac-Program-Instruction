@@ -72,7 +72,7 @@
 ;;  formatting code specified at the top of each command definition.    ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2017  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2017  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2017-08-06                                      ;;
 ;;                                                                      ;;

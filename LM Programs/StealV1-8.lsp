@@ -215,7 +215,7 @@
 ;;                                                                                               ;;
 ;;  Author:                                                                                      ;;
 ;;                                                                                               ;;
-;;  Copyright © 2012 Lee Mac  -  www.lee-mac.com                                                 ;;
+;;  Copyright ?2012 Lee Mac  -  www.lee-mac.com                                                 ;;
 ;;                                                                                               ;;
 ;;-----------------------------------------------------------------------------------------------;;
 ;;                                                                                               ;;
@@ -1382,7 +1382,7 @@
     (strcat
         "\n:: Steal.lsp | Version "
         stealversionnumber
-        " | © Lee Mac "
+        " | ?Lee Mac "
         (menucmd "m=$(edtime,$(getvar,DATE),YYYY)")
         " www.lee-mac.com ::"
         "\n:: Available Commands:"

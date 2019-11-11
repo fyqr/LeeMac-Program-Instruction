@@ -3,7 +3,7 @@
 ;;  Enables the user to construct a regular polygon projected ;;
 ;;  in the active isometric plane.                            ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2012 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2012 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:isopoly ( / a b c i l m p r s )

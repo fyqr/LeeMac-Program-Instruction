@@ -17,7 +17,7 @@
 ;;  the resultant polyline will have an elevation equal to the          ;;
 ;;  Z-component of the first point on the curve.                        ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2011  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2011  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2011-04-18                                      ;;
 ;;                                                                      ;;

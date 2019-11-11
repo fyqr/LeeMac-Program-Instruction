@@ -3,12 +3,12 @@
 ;;  WBlocks all active layers to separate drawings, saved to  ;;
 ;;  the specified directory                                   ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:Layers2DWGs ( / *error* _UniqueFilename _UniqueItem _LayerList doc docname SelSets Path ss )
   (vl-load-com)
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
 
   (defun *error* ( msg )
     (or (wcmatch (strcase msg) "*BREAK,*CANCEL*,*EXIT*")
@@ -92,7 +92,7 @@
 ;;                                                            ;;
 ;;  Displays a dialog prompting the user to select a folder   ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  msg  - message to display at top of dialog                ;;
@@ -104,7 +104,7 @@
 
 (defun LM:DirectoryDialog ( msg dir flag / Shell HWND Fold Self Path ac )
   (vl-load-com)
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
 
   (setq Shell (vla-getInterfaceObject (setq ac (vlax-get-acad-object)) "Shell.Application")
         HWND  (vl-catch-all-apply 'vla-get-HWND (list ac))
@@ -129,7 +129,7 @@
 ;;  Creates a populated Safearray Variant of a specified      ;;
 ;;  data type                                                 ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  datatype - variant type enum (eg vlax-vbDouble)           ;;
@@ -139,7 +139,7 @@
 ;;------------------------------------------------------------;;
 
 (defun LM:SafearrayVariant ( datatype data )
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
   (vlax-make-variant
     (vlax-safearray-fill
       (vlax-make-safearray datatype
@@ -154,7 +154,7 @@
 ;;                                                            ;;
 ;;  Converts a DXF List to Type and Value Variants            ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  lst  - DXF List                                           ;;
@@ -163,7 +163,7 @@
 ;;------------------------------------------------------------;;
 
 (defun LM:DXF->Variants ( lst *typ *val)
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
   (set *typ (LM:SafearrayVariant vlax-vbInteger (mapcar 'car lst))) 
 
   (set *val
@@ -186,7 +186,7 @@
 ;;  Retrieves the item with index 'item' if present in the    ;;
 ;;  specified collection, else nil                            ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  coll - the VLA Collection Object                          ;;
@@ -196,7 +196,7 @@
 ;;------------------------------------------------------------;;
 
 (defun LM:Itemp ( coll item )
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
   (if
     (not
       (vl-catch-all-error-p

@@ -7,7 +7,7 @@
 ;;  Works with primary & nested objects (uniformly scaled),   ;;
 ;;  and in all UCS/Views.                                     ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2012 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2012 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.1    -    15-01-2012                            ;;
 ;;  Fixed intermittent divide by zero error.                  ;;
@@ -264,7 +264,7 @@
 (vl-load-com)
 (princ
     (strcat
-        "\n:: Label.lsp | Version 1.1 | © Lee Mac "
+        "\n:: Label.lsp | Version 1.1 | ?Lee Mac "
         (menucmd "m=$(edtime,$(getvar,DATE),YYYY)")
         " www.lee-mac.com ::"
         "\n:: Type \"Label\" to Invoke ::"

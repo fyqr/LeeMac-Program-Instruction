@@ -3,7 +3,7 @@
 ;; Prompts the user to select an object, then constructs the  ;;
 ;; Minimum Enclosing Circle containing the selected object.   ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:mec ( / en lst )
@@ -39,7 +39,7 @@
 ;; constructs the Minimum Enclosing Circle containing the     ;;
 ;; selected objects.                                          ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:mecm ( / in l1 l2 ss )
@@ -226,7 +226,7 @@
 ;;  Returns a list of points describing or approximating the  ;;
 ;;  supplied entity, else nil if the entity is not supported. ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  ent - Entity for which to return Point List.              ;;

@@ -9,7 +9,7 @@
 ;;  multiline automatically exploded & joined to form standard 2D       ;;
 ;;  polylines.                                                          ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2010  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2010  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2010-06-19                                      ;;
 ;;                                                                      ;;

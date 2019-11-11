@@ -4,12 +4,12 @@
 ;;  to match the listed properties for subsequently picked    ;;
 ;;  attributes.                                               ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:MatchAttribs ( / properties source )
   (vl-load-com)
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
 
 ;; List of Properties to Match, may be edited to suit
 ;;------------------------------------------------------------;;
@@ -84,7 +84,7 @@
 ;;  Continuous selection prompts until the predicate function ;;
 ;;  foo is validated                                          ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  foo - optional predicate function taking ename argument   ;;
@@ -95,7 +95,7 @@
 ;;------------------------------------------------------------;;
 
 (defun LM:Selectif ( foo fun str / e )
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
   (while
     (progn (setq e (car (fun str)))      
       (cond

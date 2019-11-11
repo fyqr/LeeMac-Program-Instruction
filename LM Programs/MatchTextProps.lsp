@@ -5,14 +5,14 @@
 ;;  then proceed to match those properties listed for similar ;;
 ;;  objects selected thereafter.                              ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:MTP nil (c:MatchTextProps))
 
 (defun c:MatchTextProps ( / *error* _StartUndo _EndUndo _GetTextInsertion _PutTextInsertion Props doc entity object ss )
   (vl-load-com)
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
 
   (setq Props
    '(
@@ -179,7 +179,7 @@
 ;;  Continuous selection prompts until the predicate function ;;
 ;;  foo is validated                                          ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  foo - optional predicate function taking ename argument   ;;
@@ -190,7 +190,7 @@
 ;;------------------------------------------------------------;;
 
 (defun LM:Selectif ( foo fun str / e )
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
   (while
     (progn (setq e (car (fun str)))      
       (cond

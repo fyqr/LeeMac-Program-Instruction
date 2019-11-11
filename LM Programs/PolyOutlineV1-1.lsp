@@ -36,7 +36,7 @@
 ;;  LWPolyline with varying widths. Currently restricted to   ;;
 ;;  LWPolyline vertices with zero bulge.                      ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  ent - Entity name of LWPolyline                           ;;

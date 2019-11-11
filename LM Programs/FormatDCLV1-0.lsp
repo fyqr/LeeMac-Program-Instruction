@@ -3,7 +3,7 @@
 ;;  Reads a selected DCL file and creates a formatted version ;;
 ;;  of the dcl code in the same directory.                    ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.0    -    28-11-2011                            ;;
 ;;                                                            ;;

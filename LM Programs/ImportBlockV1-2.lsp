@@ -19,7 +19,7 @@
 ;;  The program will perform successfully in all UCS/Views and is also  ;;
 ;;  compatible with Dynamic Blocks.                                     ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2013  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2013  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.2    -    16-06-2013                                      ;;
 ;;----------------------------------------------------------------------;;

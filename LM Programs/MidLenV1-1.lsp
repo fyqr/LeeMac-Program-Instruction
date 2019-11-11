@@ -14,7 +14,7 @@
 ;;  enabled and will use the active Text Style and Text Height settings ;;
 ;;  at the time of running the program.                                 ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2013  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2013  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2013-11-12                                      ;;
 ;;                                                                      ;;

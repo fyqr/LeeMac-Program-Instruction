@@ -5,7 +5,7 @@
 ;;  objects for each word, retaining all properties of the    ;;
 ;;  original objects.                                         ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2013 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2013 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:t2w ( / _splitwords _textwidth ang dxf ent enx fun inc lst pnt sel spc tot wid )

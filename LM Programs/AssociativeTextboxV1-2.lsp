@@ -89,7 +89,7 @@
 ;;  associative behaviour for existing textbox objects in a drawing.    ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2013  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2013  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    30-04-2013                                      ;;
 ;;                                                                      ;;

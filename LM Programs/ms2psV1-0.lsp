@@ -23,7 +23,7 @@
 ;;  is set current, with a viewport active.                             ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2014  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2014  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2014-02-16                                      ;;
 ;;                                                                      ;;

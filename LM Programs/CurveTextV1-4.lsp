@@ -7,7 +7,7 @@
 ;;  If run in versions > AutoCAD2000, the resultant text will ;;
 ;;  form an anonymous group.                                  ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2012 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2012 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version:  1.4    -    22-02-2012                          ;;
 ;;------------------------------------------------------------;;
@@ -270,6 +270,6 @@
 )
 
 (vl-load-com)
-(princ "\n:: CurveText.lsp | Version 1.4 | © Lee Mac 2012 www.lee-mac.com ::")
+(princ "\n:: CurveText.lsp | Version 1.4 | ?Lee Mac 2012 www.lee-mac.com ::")
 (princ "\n:: Type \"CurveText\" to Invoke ::")
 (princ)

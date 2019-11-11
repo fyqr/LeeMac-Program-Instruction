@@ -183,7 +183,7 @@
 ;;                                                                               ;;
 ;;  Author:                                                                      ;;
 ;;                                                                               ;;
-;;  Copyright © 2012 Lee Mac  -  www.lee-mac.com                                 ;;
+;;  Copyright ?2012 Lee Mac  -  www.lee-mac.com                                 ;;
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
@@ -1216,7 +1216,7 @@
                     ";;  Sets the values of all attributes found in the supplied   ;;"
                     ";;  association list to their associated values.              ;;"
                     ";;------------------------------------------------------------;;"
-                    ";;  Author: Lee Mac, Copyright © 2012 - www.lee-mac.com       ;;"
+                    ";;  Author: Lee Mac, Copyright ?2012 - www.lee-mac.com       ;;"
                     ";;------------------------------------------------------------;;"
                     ";;  Arguments:                                                ;;"
                     ";;  data - List of ((\"Block\" (\"Tag\" . \"Value\") .. ) .. )      ;;"
@@ -1288,7 +1288,7 @@
                     ";;  Constructs a string from a list of strings separating     ;;"
                     ";;  each element by a specified delimiter                     ;;"
                     ";;------------------------------------------------------------;;"
-                    ";;  Author: Lee Mac, Copyright © 2012 - www.lee-mac.com       ;;"
+                    ";;  Author: Lee Mac, Copyright ?2012 - www.lee-mac.com       ;;"
                     ";;------------------------------------------------------------;;"
                     ";;  Arguments:                                                ;;"
                     ";;  lst - a list of strings to process                        ;;"
@@ -1308,7 +1308,7 @@
                     ";;                                                            ;;"
                     ";;  Returns the effective name of a block.                    ;;"
                     ";;------------------------------------------------------------;;"
-                    ";;  Author: Lee Mac, Copyright © 2012 - www.lee-mac.com       ;;"
+                    ";;  Author: Lee Mac, Copyright ?2012 - www.lee-mac.com       ;;"
                     ";;------------------------------------------------------------;;"
                     ";;  Arguments:                                                ;;"
                     ";;  obj - VLA Block Reference Object                          ;;"
@@ -1352,7 +1352,7 @@
                     "//  BAtte.dcl dialog definition file to be used in            //"
                     "//  conjunction with BAtte.lsp                                //"
                     "//------------------------------------------------------------//"
-                    "//  Author: Lee Mac, Copyright © 2012 - www.lee-mac.com       //"
+                    "//  Author: Lee Mac, Copyright ?2012 - www.lee-mac.com       //"
                     "//------------------------------------------------------------//"
                     ""
                     "//------------------------------------------------------------//"
@@ -2609,7 +2609,7 @@
     (strcat
         "\n:: BAtte.lsp | Version "
         BAtteVersion
-        " | © Lee Mac "
+        " | ?Lee Mac "
         (menucmd "m=$(edtime,$(getvar,DATE),YYYY)")
         " www.lee-mac.com ::"
         "\n:: Type \"BAtte\" to Invoke ::"

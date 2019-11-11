@@ -8,7 +8,7 @@
 ;;  SELCOUNTON & SELCOUNTOFF commands respectively.                     ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2014  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2014  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2014-11-13                                      ;;
 ;;                                                                      ;;

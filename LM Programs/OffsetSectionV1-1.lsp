@@ -10,7 +10,7 @@
 ;;  width, with straight and/or arc segments, and defined in any UCS    ;;
 ;;  construction plane.                                                 ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2013  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2013  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    27-12-2012                                      ;;
 ;;                                                                      ;;

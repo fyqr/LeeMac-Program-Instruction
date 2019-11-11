@@ -3,7 +3,7 @@
 ;;  Allows the user to control the draw order of all objects  ;;
 ;;  on a layer relative to other layers in the drawing.       ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.2    -    20-06-2011                            ;;
 ;;------------------------------------------------------------;;
@@ -80,7 +80,7 @@
             "//                                                            //"
             "//  DCL file to be used in conjunction with LDOrder.lsp       //"
             "//------------------------------------------------------------//"
-            "//  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       //"
+            "//  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       //"
             "//------------------------------------------------------------//"
             ""
             "arrowbox : image_button { width = 4.17; height = 1.92; fixed_width = true; fixed_height = true; color = dialog_background; }"
@@ -580,7 +580,7 @@
 ;;  (or set of layers matching a wildcard pattern) in a       ;;
 ;;  supplied list to reflect the order of the list.           ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  acdoc  - VLA Document Object                              ;;
@@ -649,7 +649,7 @@
 (princ)
 (princ
   (strcat
-    "\n:: LDOrder.lsp | Version " ldorderversion# " | © Lee Mac 2011 www.lee-mac.com ::"
+    "\n:: LDOrder.lsp | Version " ldorderversion# " | ?Lee Mac 2011 www.lee-mac.com ::"
     "\n:: Type \"LDOrder\" to Invoke ::"
   )
 )

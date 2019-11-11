@@ -56,7 +56,7 @@
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
-;;  Author: Lee Mac, Copyright © December 2009 - www.lee-mac.com                 ;;
+;;  Author: Lee Mac, Copyright ?December 2009 - www.lee-mac.com                 ;;
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
@@ -259,7 +259,7 @@
                 "//                                                                               //"
                 "//-------------------------------------------------------------------------------//"
                 "//                                                                               //"
-                "//  Author: Lee Mac, Copyright © December 2009 - www.lee-mac.com                 //"
+                "//  Author: Lee Mac, Copyright ?December 2009 - www.lee-mac.com                 //"
                 "//                                                                               //"
                 "//-------------------------------------------------------------------------------//"
                 ""
@@ -1441,7 +1441,7 @@
 (defun c:PTM_clear nil (setq *PTM|DefaultSettings* nil))
 
 (vl-load-com)
-(princ "\n:: Point Manager | Version 2.4 | © Lee Mac 2009 www.lee-mac.com ::")
+(princ "\n:: Point Manager | Version 2.4 | ?Lee Mac 2009 www.lee-mac.com ::")
 (princ "\n:: Type \"PtM\" to Invoke ::")
 (princ)
 

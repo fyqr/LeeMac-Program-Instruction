@@ -26,7 +26,7 @@
 ;;  UCS and View settings.                                              ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2016  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2016  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2016-06-23                                      ;;
 ;;                                                                      ;;
@@ -534,7 +534,7 @@
 ;;  Returns a grvecs pixel vector list relative to the origin ;;
 ;;  encoding the supplied string.                             ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2013 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2013 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  With thanks to ElpanovEvgeniy for the method of vector    ;;
 ;;  encoding to save me a lot of typing.                      ;;

@@ -37,7 +37,7 @@
 ;;  (that is, the values held by the LUNITS & LUPREC system variables   ;;
 ;;  respectively).                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2011  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2011  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2011-01-10                                      ;;
 ;;                                                                      ;;

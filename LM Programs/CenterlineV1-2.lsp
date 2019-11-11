@@ -3,7 +3,7 @@
 ;;  Creates a pair of centerlines for Arcs, Circles, Ellipses ;;
 ;;  and Elliptical arcs with a user-defined length and angle. ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2013 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2013 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.2    -    13-08-2013                            ;;
 ;;------------------------------------------------------------;;

@@ -21,7 +21,7 @@
 ;;  mouse or presses any key to exit the program.                       ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2011  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2011  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2011-11-04                                      ;;
 ;;                                                                      ;;

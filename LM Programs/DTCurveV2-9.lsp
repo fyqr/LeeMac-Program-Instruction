@@ -37,7 +37,7 @@
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
-;;  Author: Lee Mac, Copyright © November 2009 - www.lee-mac.com                 ;;
+;;  Author: Lee Mac, Copyright ?November 2009 - www.lee-mac.com                 ;;
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
@@ -1006,7 +1006,7 @@
           (foreach str
 
            '("// DT_Curve.dcl for use in conjunction with DTCurve.lsp  //"
-             "// Copyright © November 2009 Lee Mac                     //"
+             "// Copyright ?November 2009 Lee Mac                     //"
              ""
              "dt_curve : dialog { key = \"stitle\";"
              ""
@@ -1515,7 +1515,7 @@
 ;;-------------------------------------------------------------------------------;;
 
   (progn
-    (princ "\n:: DTCurve.lsp | Version 2.9 | © Lee Mac 2009 www.lee-mac.com ::")
+    (princ "\n:: DTCurve.lsp | Version 2.9 | ?Lee Mac 2009 www.lee-mac.com ::")
     (princ "\n:: Type \"DTCurve\" to Invoke ::")
   )
 )

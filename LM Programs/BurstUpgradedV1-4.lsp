@@ -16,7 +16,7 @@
 ;;  The methods used by the program should also perform much faster &   ;;
 ;;  more efficiently than those used by the Express Tools' Burst.lsp.   ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2010  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2010  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2010-11-25                                      ;;
 ;;                                                                      ;;

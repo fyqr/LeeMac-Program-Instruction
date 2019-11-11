@@ -39,7 +39,7 @@
 ;;  the list) as the current tab.                             ;;
 ;;                                                            ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;                                                            ;;
 ;;  With Thanks To:                                           ;;
@@ -292,7 +292,7 @@
             "//  Dialog Definition file for use in conjunction with        //"
             "//  TabSort.lsp                                               //"
             "//------------------------------------------------------------//"
-            "//  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       //"
+            "//  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       //"
             "//------------------------------------------------------------//"
             ""
             "dcl_settings : default_dcl_settings { audit_level = 1; }"
@@ -1759,7 +1759,7 @@
 
 (princ
   (strcat
-    "\n:: TabSort.lsp | Version " (vl-string-translate "-" "." TabSortVersion#) " | © Lee Mac 2011 www.lee-mac.com ::"
+    "\n:: TabSort.lsp | Version " (vl-string-translate "-" "." TabSortVersion#) " | ?Lee Mac 2011 www.lee-mac.com ::"
     "\n:: Type \"TabSort\" to Invoke ::"
   )
 )

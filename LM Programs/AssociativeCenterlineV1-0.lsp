@@ -5,7 +5,7 @@
 ;;  in entity xData to enable reactor rebuild upon loading,   ;;
 ;;  allowing retention of associativity between sessions.     ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.0    -    12-05-2011                            ;;
 ;;------------------------------------------------------------;;

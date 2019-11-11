@@ -3,7 +3,7 @@
 ;;  Emulates the behaviour of the standard 'Measure' command  ;;
 ;;  however centering the divisions along the selected object ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:cmeasure ( / *error* _StartUndo _EndUndo _SelectIf _IsCurveObject acdoc al bl d0 di en mx nm pt )

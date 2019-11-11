@@ -12,7 +12,7 @@
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
-;;  Author: Lee Mac, Copyright © May 2010 - www.lee-mac.com                      ;;
+;;  Author: Lee Mac, Copyright ?May 2010 - www.lee-mac.com                      ;;
 ;;                                                                               ;;
 ;;-------------------------------------------------------------------------------;;
 ;;                                                                               ;;
@@ -223,7 +223,7 @@
                 "//                                                                               //"
                 "//  WScript.dcl to be used in conjunction with WScript.lsp.                      //"
                 "//-------------------------------------------------------------------------------//"
-                "//  Author: Lee Mac, Copyright © May 2010 - www.lee-mac.com                      //"
+                "//  Author: Lee Mac, Copyright ?May 2010 - www.lee-mac.com                      //"
                 "//-------------------------------------------------------------------------------//"
                 ""
                 "//  --=={ Sub-Assembly Definitions }==--"
@@ -707,7 +707,7 @@
 )
 
 (defun StringParser ( str del / pos lst )
-  ;; © Lee Mac
+  ;; ?Lee Mac
   (while (setq pos (vl-string-search del str))
     (setq lst (cons (substr str 1 pos) lst)
           str (substr str (+ pos 1 (strlen del))))
@@ -716,7 +716,7 @@
 )
 
 (defun lst->str ( lst del )
-  ;; © Lee Mac
+  ;; ?Lee Mac
   (
     (lambda ( str )
       (foreach x (cdr lst)
@@ -803,7 +803,7 @@
 )
 
 (vl-load-com)
-(princ "\n:: Script Writer | Version 1.2 | © Lee Mac 2010 www.lee-mac.com ::")
+(princ "\n:: Script Writer | Version 1.2 | ?Lee Mac 2010 www.lee-mac.com ::")
 (princ "\n:: Type \"WScript\" to Invoke ::")
 (princ)
 

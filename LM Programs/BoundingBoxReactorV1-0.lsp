@@ -4,12 +4,12 @@
 ;;  which a bounding polyline will be updated following       ;;
 ;;  modification of an owner within the group                 ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:bbrn ( / *error* owners lst )
   (vl-load-com)
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
 
   (defun *error* ( msg )
     (or (wcmatch (strcase msg) "*BREAK,*CANCEL*,*EXIT*")
@@ -54,12 +54,12 @@
 ;;  Allows the user to remove objects from an existing        ;;
 ;;  reactor owner group, or remove all groups                 ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:bbrr ( / *error* owners gr code data hLst msg e o nm )
   (vl-load-com)
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
 
   (defun *error* ( msg )
     (and nm (setvar 'NOMUTT nm))
@@ -184,12 +184,12 @@
 ;;  Allows the user to add objects to an existing reactor     ;;
 ;;  owner group                                               ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:bbra ( / *error* owners msg gr code data e o group hLst lst nm )
   (vl-load-com)
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
 
   (defun *error* ( msg )
     (and nm (setvar 'NOMUTT nm))
@@ -294,7 +294,7 @@
 ;;  Callback function for the BoundingBox Reactor to update   ;;
 ;;  the bounding polyline of the calling owner group          ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  owner   - object to which the modification event applies  ;;
@@ -351,7 +351,7 @@
 ;;                                                            ;;
 ;;  Highlights or Unhighlights a list of supplied VLA Objects ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  lst - list of VLA Objects                                 ;;
@@ -377,7 +377,7 @@
 ;;  Returns the reactor object of the specified type          ;;
 ;;  associated with the application data supplied             ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  data - reactor application data                           ;;
@@ -402,7 +402,7 @@
 ;;  Returns a list of reactors of the specified type and      ;;
 ;;  owners for each reactor                                   ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  typ - Type of reactor to query, eg :vlr-object-reactor    ;;
@@ -426,7 +426,7 @@
 ;;  Creates an LWPolyline with vertices at each point in the  ;;
 ;;  supplied list                                             ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  lst - list of vertices for polyline                       ;;
@@ -454,7 +454,7 @@
 ;;                                                            ;;
 ;;  Converts a SelectionSet to a list of VLA Objects          ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  ss - Valid SelectionSet (Pickset)                         ;;
@@ -463,7 +463,7 @@
 ;;------------------------------------------------------------;;
 
 (defun LM:ss->vla ( ss )
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
   (if ss
     (
       (lambda ( i / e l )
@@ -482,7 +482,7 @@
 ;;  Returns the coordinates of a rectangle framing all        ;;
 ;;  objects in a supplied list                                ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  lst - list of VLA-Objects to process                      ;;
@@ -491,7 +491,7 @@
 ;;------------------------------------------------------------;;
 
 (defun LM:ListBoundingBox ( lst / ll ur bb )
-  ;; © Lee Mac 2010
+  ;; ?Lee Mac 2010
 
   (foreach obj lst (vla-getBoundingBox obj 'll 'ur)
     (setq bb (cons (vlax-safearray->list ur)
@@ -514,7 +514,7 @@
 ;;  Returns the coordinates of a rectangle from the           ;;
 ;;  coordinates of the lower-left and upper-right corners     ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2010 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2010 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Arguments:                                                ;;
 ;;  bbox - list of lower-left and upper-right coordinates     ;;

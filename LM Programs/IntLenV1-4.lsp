@@ -3,7 +3,7 @@
 ;;  Displays the length of segments of a curve divided at     ;;
 ;;  intersections with other objects.                         ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.4    -    26-04-2011                            ;;
 ;;------------------------------------------------------------;;
@@ -284,7 +284,7 @@
 
 (vl-load-com)
 (princ)
-(princ "\n:: IntLen.lsp | Version 1.4 | © Lee Mac 2011 www.lee-mac.com ::")
+(princ "\n:: IntLen.lsp | Version 1.4 | ?Lee Mac 2011 www.lee-mac.com ::")
 (princ "\n:: Type \"IntLen\" or \"IntLenM\" to Invoke ::")
 (princ)
 

@@ -4,7 +4,7 @@
 ;;  selection chain of all objects sharing endpoints with     ;;
 ;;  objects in the accumulative selection.                    ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2012 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2012 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 
 (defun c:cs ( / en fl in l1 l2 s1 s2 sf vl )

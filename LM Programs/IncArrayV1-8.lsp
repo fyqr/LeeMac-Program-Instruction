@@ -32,7 +32,7 @@
 ;;  content of these objects will be automatically incremented by the   ;;
 ;;  given increment value as the object is arrayed.                     ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2014  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2014  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2011-07-27                                      ;;
 ;;                                                                      ;;

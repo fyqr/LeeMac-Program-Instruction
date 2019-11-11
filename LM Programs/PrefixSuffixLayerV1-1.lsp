@@ -13,7 +13,7 @@
 ;;  prefix and/or suffix from the layer names of all layers found in a  ;;
 ;;  selection of objects.                                               ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2016  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2016  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2016-11-08                                      ;;
 ;;                                                                      ;;

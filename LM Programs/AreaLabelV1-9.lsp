@@ -5,7 +5,7 @@
 ;;  optionally using fields to link area numbers and objects; ;;
 ;;  or write it to file.                                      ;;
 ;;------------------------------------------------------------;;
-;;  Author: Lee Mac, Copyright © 2011 - www.lee-mac.com       ;;
+;;  Author: Lee Mac, Copyright ?2011 - www.lee-mac.com       ;;
 ;;------------------------------------------------------------;;
 ;;  Version 1.9    -    29-10-2011                            ;;
 ;;------------------------------------------------------------;;
@@ -543,7 +543,7 @@
 
 (vl-load-com)
 (princ)
-(princ "\n:: AreaLabel.lsp | Version 1.9 | © Lee Mac 2011 www.lee-mac.com ::")
+(princ "\n:: AreaLabel.lsp | Version 1.9 | ?Lee Mac 2011 www.lee-mac.com ::")
 (princ "\n:: Commands: \"AT\" for ACAD Table, \"AF\" for File ::")
 (princ)
 

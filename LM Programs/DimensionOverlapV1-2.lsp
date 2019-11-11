@@ -4,7 +4,7 @@
 ;;  all layouts and all blocks in a drawing, and will move such         ;;
 ;;  dimensions to a separate layer specified in the code.               ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2015  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2015  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2015-12-12                                      ;;
 ;;                                                                      ;;

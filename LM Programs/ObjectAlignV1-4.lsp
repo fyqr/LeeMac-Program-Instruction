@@ -37,7 +37,7 @@
 ;;  (AutoCAD 2000 onwards running on a Windows OS).                     ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2010  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2010  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2010-05-01                                      ;;
 ;;                                                                      ;;

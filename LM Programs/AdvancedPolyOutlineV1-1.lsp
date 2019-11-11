@@ -169,7 +169,7 @@
 ;;  differential along the length of the segment will not necessarily   ;;
 ;;  define an outlining Elliptical Arc.                                 ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2013  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2013  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Arguments:                                                          ;;
 ;;  ent - Entity name of LWPolyline                                     ;;

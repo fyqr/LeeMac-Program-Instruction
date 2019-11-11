@@ -33,7 +33,7 @@
 ;;  listed within the 'Program Parameters' section of the source code.  ;;
 ;;                                                                      ;;
 ;;----------------------------------------------------------------------;;
-;;  Author:  Lee Mac, Copyright © 2015  -  www.lee-mac.com              ;;
+;;  Author:  Lee Mac, Copyright ?2015  -  www.lee-mac.com              ;;
 ;;----------------------------------------------------------------------;;
 ;;  Version 1.0    -    2015-01-02                                      ;;
 ;;                                                                      ;;
